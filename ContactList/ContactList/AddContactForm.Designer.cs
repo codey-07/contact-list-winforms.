@@ -36,7 +36,7 @@
             // 
             // txtPhoneNumber
             // 
-            this.txtPhoneNumber.Location = new System.Drawing.Point(191, 227);
+            this.txtPhoneNumber.Location = new System.Drawing.Point(246, 100);
             this.txtPhoneNumber.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtPhoneNumber.Name = "txtPhoneNumber";
             this.txtPhoneNumber.Size = new System.Drawing.Size(132, 22);
@@ -45,12 +45,12 @@
             // 
             // btnSave
             // 
-            this.btnSave.Location = new System.Drawing.Point(712, 322);
+            this.btnSave.Location = new System.Drawing.Point(720, 253);
             this.btnSave.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnSave.Name = "btnSave";
             this.btnSave.Size = new System.Drawing.Size(100, 28);
             this.btnSave.TabIndex = 1;
-            this.btnSave.Text = "Lưu";
+            this.btnSave.Text = "luu";
             this.btnSave.UseVisualStyleBackColor = true;
             this.btnSave.Click += new System.EventHandler(this.btnSave_Click);
             // 
