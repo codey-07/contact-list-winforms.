@@ -45,7 +45,7 @@
             // 
             // btnSave
             // 
-            this.btnSave.Location = new System.Drawing.Point(203, 329);
+            this.btnSave.Location = new System.Drawing.Point(712, 322);
             this.btnSave.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnSave.Name = "btnSave";
             this.btnSave.Size = new System.Drawing.Size(100, 28);
