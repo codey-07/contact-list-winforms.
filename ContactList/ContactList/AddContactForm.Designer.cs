@@ -31,7 +31,7 @@
             this.txtPhoneNumber = new System.Windows.Forms.TextBox();
             this.btnSave = new System.Windows.Forms.Button();
             this.txtFullName = new System.Windows.Forms.TextBox();
-            this.txtEmail = new System.Windows.Forms.TextBox();
+            this.txtemail = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // txtPhoneNumber
@@ -63,20 +63,20 @@
             this.txtFullName.TabIndex = 0;
             this.txtFullName.Text = "FullName";
             // 
-            // txtEmail
+            // txtemail
             // 
-            this.txtEmail.Location = new System.Drawing.Point(191, 268);
-            this.txtEmail.Name = "txtEmail";
-            this.txtEmail.Size = new System.Drawing.Size(100, 22);
-            this.txtEmail.TabIndex = 2;
-            this.txtEmail.Text = "Email";
+            this.txtemail.Location = new System.Drawing.Point(329, 258);
+            this.txtemail.Name = "txtemail";
+            this.txtemail.Size = new System.Drawing.Size(100, 22);
+            this.txtemail.TabIndex = 2;
+            this.txtemail.Text = "email";
             // 
             // AddContactForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1067, 554);
-            this.Controls.Add(this.txtEmail);
+            this.Controls.Add(this.txtemail);
             this.Controls.Add(this.txtFullName);
             this.Controls.Add(this.btnSave);
             this.Controls.Add(this.txtPhoneNumber);
@@ -93,6 +93,6 @@
         private System.Windows.Forms.TextBox txtPhoneNumber;
         private System.Windows.Forms.Button btnSave;
         private System.Windows.Forms.TextBox txtFullName;
-        private System.Windows.Forms.TextBox txtEmail;
+        private System.Windows.Forms.TextBox txtemail;
     }
 }
